@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+
+}
+
+body {
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Header, Nav and Logos*/
+
+.navbar {
+    background-color: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.primary-icon {
+    height: 60px;
+    margin-left: 25%;
+    margin-top: 3vh;
+}
+
+.cart-icon {
+    height: 60px;
+    margin-right: 5vh;
+}
+
+.nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 5px;
+    margin-left: 5vh;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+
+/*Side Navber*/
+
+/* The sidebar menu */
+
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 50px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  
+    left: 0;
+    background-color: none; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 150px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    
+  }
+  
+  
+/*Main Images*/
+
+.container {
+    position: flex;
+    bottom: 0 auto;
+}
+
+.main-img {
+    width: 600px;
+    float: right;
+
+}
+
+
+.text-block {
+    position: relative;
+    top: 100px;
+    right: 10px;
+    background-color: none;
+    color: black;
+    margin-left: 20vh;
+    
+}
+
+
+
+.button {
+    border-radius: 8px;
+    background-image: url(./Button\ Background.png);
+    background-repeat: none;
+    background-size: cover;
+    border: none;
+    padding: 15px;
+    margin-bottom: 5vh;
+    color: white;
+    width: 200px;
+    font-size: larger;
+    cursor:pointer;
+}
+
+.button:hover {
+    color: blueviolet;
+}
+
+
+h1 {
+    margin-bottom: 5vh;
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 5vh;
+    color: grey;
+    position: absolute;
+}
+
+.img-back-arrow {
+    margin-top: 10vh;
+    margin-left: 15vh;
+    width: 5%;
+    padding-right: 10vh;
+    cursor: pointer;
+}
+ 
+
+.img-next-arrow {
+    width: 5%;
+    padding-right: 15vh;
+    cursor: pointer;
+}
+
